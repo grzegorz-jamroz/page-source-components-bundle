@@ -1,0 +1,23 @@
+{
+  "name": "grzegorz-jamroz/page-source-components-bundle",
+  "type": "symfony-bundle",
+  "description": "Provides components for Page Source System",
+  "homepage": "https://rockujemy.pl",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ifrost\\Bundle\\PageSourceComponentsBundle\\": "src/"
+    }
+  },
+  "require": {
+    "doctrine/collections": "^1.6",
+    "grzegorz-jamroz/page-source-components": "dev-master",
+    "symfony/dependency-injection": "^5.2",
+    "symfony/config": "^5.2",
+    "symfony/http-kernel": "^5.2"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.0",
+    "phpstan/phpstan": "^0.12.87"
+  }
+}
