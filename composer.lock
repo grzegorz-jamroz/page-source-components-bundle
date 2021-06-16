@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5426399c009bbbb0f78a898c307e4347",
+    "content-hash": "c722e47fd48bb4351e3552cfe6fc21f7",
     "packages": [
         {
             "name": "composer/semver",
@@ -497,6 +497,47 @@
                 "source": "https://github.com/grzegorz-jamroz/page-source-components/tree/master"
             },
             "time": "2021-05-15T07:55:24+00:00"
+        },
+        {
+            "name": "grzegorz-jamroz/php-common",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/grzegorz-jamroz/php-common.git",
+                "reference": "f989cb157efd9208a248253b0d8ab820924dae05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/grzegorz-jamroz/php-common/zipball/f989cb157efd9208a248253b0d8ab820924dae05",
+                "reference": "f989cb157efd9208a248253b0d8ab820924dae05",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/collections": "^1.6",
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "phpstan/phpstan": "^0.12.87"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ifrost\\Common\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Collection of common interfaces shared between projects",
+            "homepage": "https://rockujemy.pl",
+            "support": {
+                "issues": "https://github.com/grzegorz-jamroz/php-common/issues",
+                "source": "https://github.com/grzegorz-jamroz/php-common/tree/master"
+            },
+            "time": "2021-06-13T12:44:43+00:00"
         },
         {
             "name": "php-cs-fixer/diff",
@@ -2765,7 +2806,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "grzegorz-jamroz/page-source-components": 20
+        "grzegorz-jamroz/page-source-components": 20,
+        "grzegorz-jamroz/php-common": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
